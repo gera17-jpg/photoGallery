@@ -1,0 +1,58 @@
+nav{
+    background-color: rgb(71, 5, 38);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    }
+    
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Cormorant Garamond",Arial;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Satisfy,Arial;
+    font-size: 40px;
+    align-self: center;
+    border: 1px solid green;
+    padding-left: 43%;
+}
+
+img{
+    width: 250px;
+    border: 1px solid green;
+    height: 200px;
+}
+
+.pics-c{
+    display: grid;
+    grid-template-columns: 5px 5px 5px;
+    grid-template-areas: "a b c"
+                           "d e";
+    grid-gap: 2px;
+
+    }   
+
+.q{
+    grid-area: a;
+}
+
+.w{
+    grid-area: b;
+}
+
+.e{
+    grid-area: c;
+}
+
+.r{
+    grid-area: d;
+}
+
+.t{
+    grid-area: e;
+}
